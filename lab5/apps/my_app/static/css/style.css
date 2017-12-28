@@ -1,0 +1,33 @@
+body {
+    background-image: url("../imgs/bckg.jpg");
+}
+
+.jumbotron {
+    background-color: #70cabc;
+    font-family: Vivaldi;
+    color: white;
+}
+
+.alert-success {
+    font-family: EuroRoman;
+    font-size: 18px;
+
+}
+
+.container {
+    width: 50%;
+}
+
+.container1 {
+    background-color: #70cabc;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 18px;
+}
+
+li {
+    color: white;
+    text-decoration-color: white;
+    font-family: EuroRoman;
+    font-size: 18px;
+}

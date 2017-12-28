@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title1 %}<title>Order {{ order.id }}</title>{% endblock %}
+{% block title %}
+    <h1 class="asap-font">The page of order № {{ order.id }}</h1>
+{% endblock %}
+{% block body %}
+    <div class="container">
+        <img class="d-block w-100" src="{% static "imgs/order.jpg" %}">
+    </div>
+{% endblock %}

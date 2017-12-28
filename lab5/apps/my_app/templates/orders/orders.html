@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block title1 %}<title>Orders</title>{% endblock %}
+{% block title %}
+    <h1 class="asap-font">Orders</h1>
+{% endblock %}
+{% block body %}
+    <div class="container1">
+        <br>
+        <ul>
+            {% for order in orders %}
+                {% include 'orders/order_element.html' with element=order%}
+            {% empty %}
+                <li>Empty list</li>
+            {% endfor %}
+        </ul>
+        <br>
+    </div>
+{% endblock %}
